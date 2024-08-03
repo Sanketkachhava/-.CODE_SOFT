@@ -1,0 +1,128 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /* background-color: #333; */
+    color: black;
+    padding: 7px 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+#hero {
+    /* background-color: #007bff; */
+    color: #fff;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.feature {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.about-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+h3{
+    padding-left: 23px;
+    color: brown;
+
+}
+/* .hero-content{
+    background-image: url(LAPTOP\ CODE.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px;
+
+} */
+h1{
+    color: #0056b3;
+}
+p{
+    color: black;
+}
+h2{
+    background-color: aqua;
+}
+.navbar{
+    padding-right: 900px;
+    color: black;
+}
+.search{
+    padding-left: 1050px;
+}
+.image{
+    background-image: url(laptop.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px;
+}
+.navbar ul li a:hover{
+    color: red
+}

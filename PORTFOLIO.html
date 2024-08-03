@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="PORTFOLIO.css">
+</head>
+
+<body>
+    <div class="image">
+    <header>
+        
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#My Skills">Skills</a></li>
+            </ul>
+            <div class="search">
+                <input type="text" name="search" placeholder="search" required>
+            </div>
+        </nav>
+        
+       
+    </header>
+    <strong>
+        <h1>WELCOME TO MY PORTFOLIO</h1>
+    </strong>
+</div>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <strong>
+            <p>Hello! I am a web developer with a passion for creating beautiful and functional websites. My expertise
+                lies in HTML, CSS, and JavaScript.</p>
+        </strong>
+    </section>
+
+    <section id="skills">
+        <h2>My skills</h2>
+        <!-- <header> -->
+            <ul>
+                <div id="key">
+
+                    <li>C</li>
+                    <li>C++</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JAVASCRIPT</li>
+                </div>
+            </ul>
+        <!-- </header> -->
+
+    </section>
+
+    <section id="portfolio">
+        <h2>My Work</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="e learning.jpg" alt="E-learning website">
+                <strong><p>E-learning website</p></strong>
+                <strong><p>project 1</p></strong>
+            </div>
+            <div class="gallery-item">
+                <img src="college website.jpg" alt="College website">
+                <strong><p>college website</p></strong>
+                <strong><p>project 2</p></strong>
+            </div>
+            <div class="gallery-item">
+                <img src="responsive blog website.jpg" alt="Responsive blog website">
+                <strong><p>Responsive bolg website</p></strong>
+                <strong><p>project 3</p></strong>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    
+</body>
+
+</html>

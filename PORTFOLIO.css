@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-image: url(writing-portfolio-sharing.avif);
+    background-repeat: no-repeat;
+    margin-right: 550px;
+    
+}
+
+header {
+    /* background-color: #333; */
+    /* background-image: url(coding\ boy.jpg); */
+    background-size: 1270px;
+    /* background-repeat: no-repeat;; */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    width: 500px;
+    /* margin-left: 310px; */
+    margin-right: 550px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a  {
+    color: black;
+    text-decoration: none;
+    /* background-color: black; */
+    padding: 7px;
+    margin-right: 10px;
+
+}
+
+section {
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+    color: blue
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    color: red;
+}
+
+.gallery-item {
+    flex: 1 1 calc(33% - 2rem);
+    box-sizing: border-box;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 0.5rem;
+}
+
+form input, form textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+h1{
+    color: black;
+    /* background-color: white; */
+    border-radius: 10px;
+    padding: 17px;
+    width: 500px;
+    margin-left: 17px;
+    /* margin-right: 300px; */
+
+}
+#about p{
+    color: black;
+    
+}
+#key li a{
+    color: black;
+}
+nav :hover{
+    color: red;
+}
+.search{
+    margin-left: 1030px;
+}
